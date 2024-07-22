@@ -11,7 +11,7 @@ import lombok.EqualsAndHashCode;
 @Data
 @EqualsAndHashCode(callSuper = true)
 @Entity
-@Table(name = "employee")
+@Table(name = "employees")
 @PrimaryKeyJoinColumn(name = "user_id")
 public class Employee extends User
 {
